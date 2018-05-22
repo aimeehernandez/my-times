@@ -28,3 +28,23 @@ header {
   color: black;
   padding-right: 40px;
 }
+
+.main-content {
+  border: 1px solid black;
+  display: flex;
+}
+
+.large-column {
+  display: flex;
+  width: 630px;
+}
+
+.medium-column {
+  display: flex;
+  width: 300px;
+}
+
+.small-column {
+  display: flex;
+  width: 240px;
+}

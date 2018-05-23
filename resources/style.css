@@ -30,37 +30,41 @@ header {
 }
 
 .main-container {
-  border: 1px solid black;
   position:relative;
   display: flex;
   top: 80px;
   font-family: Georgia;
 }
 
-.main-container div {
-  border: 1px solid black;
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
-
-.large-column {
-  display: flex;
+.column.large {
   width: 630px;
 }
 
-.medium-column {
-  display: flex;
+.column.medium {
   width: 300px;
 }
 
-.small-column {
-  display: flex;
+.column.small {
   width: 240px;
+}
+
+.image-content div {
+  display: flex;
 }
 
 .image-content span {
   font-weight: bold;
   font-size: 30px;
   color: white;
+}
+
+.main-story {
+  display: block;
 }
 
 .main-story .image-content {

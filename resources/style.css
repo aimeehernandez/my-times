@@ -29,10 +29,18 @@ header {
   padding-right: 40px;
 }
 
-.main-content {
+.main-container {
   border: 1px solid black;
+  position:relative;
   display: flex;
+  top: 80px;
+  font-family: Georgia;
 }
+
+.main-container div {
+  border: 1px solid black;
+}
+
 
 .large-column {
   display: flex;
@@ -47,4 +55,26 @@ header {
 .small-column {
   display: flex;
   width: 240px;
+}
+
+.image-content span {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.main-story .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+.earth.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.cameras.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.cats.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
 }

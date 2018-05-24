@@ -1,6 +1,7 @@
 header {
   display: flex;
   position: fixed;
+  top: 0px;
   z-index: 1;
   width: 100%;
   height: 80px;
@@ -30,10 +31,12 @@ header {
 }
 
 .main-container {
-  position:relative;
   display: flex;
+  justify-content: center;
   top: 80px;
   font-family: Georgia;
+  margin-bottom: 78px;
+  padding-top: 116px;
 }
 
 .main-container p {
@@ -121,23 +124,33 @@ header {
   padding: 11px 20px;
 }
 
-.footer {
+footer {
   display: flex;
-  position: fixed;
-  z-index: 1;
   width: 100%;
-  height: 80px;
+  height: 325px;
   align-items: center;
-  align-content: center;
+  justify-content: center;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
+  flex-direction: column;
+  position: absolute;
 }
 
-.footer .title {
+.title-nav {
+  display: inline-block;
+}
+
+.title-nav span {
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+  padding-left: 25px;
+}
+
+.title-nav a {
+  color: black;
+  padding-left: 25px;
 }

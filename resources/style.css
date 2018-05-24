@@ -69,14 +69,19 @@ header {
   font-size: 30px;
   color: white;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-story.image-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-  display: block;
   font-weight: bold;
   font-size: 40px;
   text-align: left;
+}
+
+.main-story .image-content span {
+  margin-left: 20px;
 }
 
 .main-story .text {
@@ -105,6 +110,12 @@ header {
   display: flex;
   flex-direction: column;
   width: 300px;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .news h3 {
